@@ -889,3 +889,44 @@ background: linear-gradient(345deg, rgba(63, 138, 251, 1) 0%, rgba(240, 50, 104,
 
     
 }
+
+/* ===== CELULAR ===== */
+@media screen and (max-width: 768px) {
+
+    .hero-section {
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 130px 20px 40px;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .hero-section .section-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hero-details {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 70px;
+        line-height: 0.9;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .hero-image-wrapper {
+        width: 100%;
+    }
+
+    .hero-image {
+        width: 80%;
+        max-width: 350px;
+        height: auto;
+    }
+}
