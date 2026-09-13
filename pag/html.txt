@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calidad.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar section-content">
+			<a href="#"class="nav-logo">
+				<h2 class="logo-text">
+				Gestión de los Sistemas de Calidad
+				</h2>
+			</a>
+			<ul class="nav-menu">
+				<li class="nav-item">
+					<a href="#" class="nav-link">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a href="#precursores" class="nav-link">Precursores</a>
+				</li>
+				<li class="nav-item">
+					<a href="#aportaciones" class="nav-link">Aportaciones</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Quizz</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Fuentes</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero-section">
+
+    <div class="section-content">
+        <div class="hero-details">
+
+            <h2 class="titulo">Calidad.com</h2>
+
+            <h3 class="subtitulo">
+            	▶ Pioneros y Evolución de la Calidad
+            </h3>
+
+            <p class="descripcion">
+                Explora el legado de los grandes pensadores que transformaron
+                <br>
+                la industria y definieron la calidad a lo largo de la historia.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="hero-image-wrapper">
+        <img src="hero.png" alt="Hero" class="hero-image">
+    </div>
+
+</section>
+
+		<section class="precursores-section" id="precursores">
+		    <div class="section-content">
+
+		        <h2 class="section-title" style="color: #d18800;">Precursores de la Calidad</h2>
+
+		        <p class="section-description"  style="color: #d18800;">
+		            Conoce a algunos de los principales personajes que realizaron
+		            importantes aportaciones al desarrollo de la calidad.
+		        </p>
+
+		        <div class="precursores-grid">
+
+		            <!-- PRECURSOR 1 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/deming.jpg" alt="W. Edwards Deming">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>W. Edwards Deming</h3>
+		                    <p>
+		                        Estadístico estadounidense conocido por sus aportaciones
+		                        al control de calidad y la mejora continua.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 2 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/juran.jpg" alt="Joseph Juran">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Joseph Juran</h3>
+		                    <p>
+		                        Desarrolló importantes conceptos relacionados con la
+		                        gestión de la calidad y la mejora de los procesos.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 3 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/ishikawa.jpg" alt="Kaoru Ishikawa">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Kaoru Ishikawa</h3>
+		                    <p>
+		                        Creador del diagrama causa-efecto, también conocido como
+		                        diagrama de Ishikawa o de espina de pescado.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 4 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/crosby.jpg" alt="Philip Crosby">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Philip Crosby</h3>
+		                    <p>
+		                        Promovió la idea de hacer las cosas correctamente desde
+		                        la primera vez y el concepto de cero defectos.
+		                    </p>
+		                </div>
+		            </div>
+
+
+		            <!-- PRECURSOR 5 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/shewhart.jpg" alt="Walter Shewhart">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Walter Shewhart</h3>
+		                    <p>
+		                        Pionero del control estadístico de procesos y creador
+		                        de las cartas de control.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 6 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/feigenbaum.jpg" alt="Armand Feigenbaum">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Armand Feigenbaum</h3>
+		                    <p>
+		                        Introdujo el concepto de control total de la calidad
+		                        dentro de las organizaciones.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 7 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/taguchi.jpg" alt="Genichi Taguchi">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Genichi Taguchi</h3>
+		                    <p>
+		                        Desarrolló métodos estadísticos para mejorar la calidad
+		                        de los productos y reducir la variabilidad.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 8 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/toyoda.jpg" alt="Sakichi Toyoda">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Sakichi Toyoda</h3>
+		                    <p>
+		                        Pionero de la industria japonesa y precursor de ideas
+		                        relacionadas con la automatización y la calidad.
+		                    </p>
+		                </div>
+		            </div>
+
+
+		            <!-- PRECURSOR 9 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/taiichi.jpg" alt="Taiichi Ohno">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Taiichi Ohno</h3>
+		                    <p>
+		                        Uno de los principales creadores del Sistema de Producción
+		                        de Toyota y del enfoque Just in Time.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 10 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/shingo.jpg" alt="Shigeo Shingo">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Shigeo Shingo</h3>
+		                    <p>
+		                        Realizó importantes aportaciones a la mejora de procesos,
+		                        incluyendo el concepto de Poka-Yoke.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 11 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/feigenbaum2.jpg" alt="Precursor de la calidad">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Precursor 11</h3>
+		                    <p>
+		                        Breve descripción de sus principales aportaciones a la
+		                        evolución de la calidad.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 12 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/precursor12.jpg" alt="Precursor de la calidad">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Precursor 12</h3>
+		                    <p>
+		                        Breve descripción de sus principales aportaciones a la
+		                        evolución de la calidad.
+		                    </p>
+		                </div>
+		            </div>
+
+
+		            <!-- PRECURSOR 13 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/precursor13.jpg" alt="Precursor de la calidad">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Precursor 13</h3>
+		                    <p>
+		                        Breve descripción de sus principales aportaciones a la
+		                        evolución de la calidad.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 14 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/precursor14.jpg" alt="Precursor de la calidad">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Precursor 14</h3>
+		                    <p>
+		                        Breve descripción de sus principales aportaciones a la
+		                        evolución de la calidad.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 15 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/precursor15.jpg" alt="Precursor de la calidad">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Precursor 15</h3>
+		                    <p>
+		                        Breve descripción de sus principales aportaciones a la
+		                        evolución de la calidad.
+		                    </p>
+		                </div>
+		            </div>
+
+		            <!-- PRECURSOR 16 -->
+		            <div class="precursor-card">
+		                <div class="precursor-image">
+		                    <img src="imagenes/precursor16.jpg" alt="Precursor de la calidad">
+		                </div>
+		                <div class="precursor-info">
+		                    <h3>Precursor 16</h3>
+		                    <p>
+		                        Breve descripción de sus principales aportaciones a la
+		                        evolución de la calidad.
+		                    </p>
+		                </div>
+		            </div>
+
+		        </div>
+		    </div>
+		</section>
+				<section class="aportaciones-section" id="aportaciones">
+
+    <div class="section-content">
+
+        <h2 class="section-title"  style="color: #d18800;">Línea del Tiempo</h2>
+
+        <p class="section-description">
+            Explora las principales aportaciones de los precursores de la calidad.
+            Selecciona una fecha para conocer más.
+        </p>
+
+        <div class="timeline">
+
+            <!-- 01 -->
+            <div class="timeline-item" onclick="mostrarAportacion(1)">
+                <span class="timeline-number">01</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 02 -->
+            <div class="timeline-item" onclick="mostrarAportacion(2)">
+                <span class="timeline-number">02</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 03 -->
+            <div class="timeline-item" onclick="mostrarAportacion(3)">
+                <span class="timeline-number">03</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 04 -->
+            <div class="timeline-item" onclick="mostrarAportacion(4)">
+                <span class="timeline-number">04</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 05 -->
+            <div class="timeline-item" onclick="mostrarAportacion(5)">
+                <span class="timeline-number">05</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 06 -->
+            <div class="timeline-item" onclick="mostrarAportacion(6)">
+                <span class="timeline-number">06</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 07 -->
+            <div class="timeline-item" onclick="mostrarAportacion(7)">
+                <span class="timeline-number">07</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 08 -->
+            <div class="timeline-item" onclick="mostrarAportacion(8)">
+                <span class="timeline-number">08</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 09 -->
+            <div class="timeline-item" onclick="mostrarAportacion(9)">
+                <span class="timeline-number">09</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 10 -->
+            <div class="timeline-item" onclick="mostrarAportacion(10)">
+                <span class="timeline-number">10</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 11 -->
+            <div class="timeline-item" onclick="mostrarAportacion(11)">
+                <span class="timeline-number">11</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 12 -->
+            <div class="timeline-item" onclick="mostrarAportacion(12)">
+                <span class="timeline-number">12</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 13 -->
+            <div class="timeline-item" onclick="mostrarAportacion(13)">
+                <span class="timeline-number">13</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 14 -->
+            <div class="timeline-item" onclick="mostrarAportacion(14)">
+                <span class="timeline-number">14</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 15 -->
+            <div class="timeline-item" onclick="mostrarAportacion(15)">
+                <span class="timeline-number">15</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+            <!-- 16 -->
+            <div class="timeline-item" onclick="mostrarAportacion(16)">
+                <span class="timeline-number">16</span>
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">AÑO</span>
+            </div>
+
+        </div>
+
+
+        <!-- INFORMACIÓN QUE APARECE AL SELECCIONAR -->
+
+        <div class="aportacion-info" id="aportacion-info">
+
+            <h3>Selecciona un precursor</h3>
+
+            <p>
+                Haz clic en uno de los puntos de la línea del tiempo
+                para conocer sus principales aportaciones.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+	</main>
+			<script>
+
+function mostrarAportacion(numero) {
+
+    const informacion = document.getElementById("aportacion-info");
+
+    informacion.innerHTML = `
+        <h3>Precursor ${numero}</h3>
+
+        <p>
+            Aquí irá la información sobre las principales
+            aportaciones del precursor ${numero}.
+        </p>
+
+        <p>
+            <strong>Aportación:</strong>
+            Información pendiente.
+        </p>
+    `;
+
+}
+
+</script>
+</body>
+</html>
